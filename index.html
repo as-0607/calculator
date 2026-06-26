@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="display">
+      <div class="equation"></div>
+      <div class="result"></div>
+    </div>
+    <div class="buttons">
+      <div onclick="clearDisplay()">Ac</div>
+      <div onclick="appendToDisplay('/')">/</div>
+      <div onclick="appendToDisplay('*')">*</div>
+      <div onclick="appendToDisplay('-')">-</div>
+      <div onclick="appendToDisplay('7')">7</div>
+      <div onclick="appendToDisplay('8')">8</div>
+      <div onclick="appendToDisplay('9')">9</div>
+      <div onclick="appendToDisplay('+')" style="grid-row: span 2; padding-top: 60px;">+</div>
+      <div onclick="appendToDisplay('4')">4</div>
+      <div onclick="appendToDisplay('5')">5</div>
+      <div onclick="appendToDisplay('6')">6</div>
+      <div onclick="appendToDisplay('1')">1</div>
+      <div onclick="appendToDisplay('2')">2</div>
+      <div onclick="appendToDisplay('3')">3</div>
+      <div onclick="appendToDisplay('=')" style="grid-row: span 2; padding-top: 60px;">=</div>
+      <div onclick="appendToDisplay('0')" style="grid-column: span 2;">0</div>
+      <div onclick="appendToDisplay('.')">.</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
