@@ -4,9 +4,7 @@ A modern and responsive calculator built with **HTML**, **CSS**, and **JavaScrip
 
 ## 📸 Preview
 
-> Add a screenshot here after uploading your project image.
-
-![Calculator Preview](./preview.png)
+![Calculator Preview]([./preview.png](https://as-0607.github.io/calculator/))
 
 ---
 
